@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "C_dll_protocol"
+description = "A package for defining DLL protocols with modern Python syntax."
+requires-python = "< 3.14"
+dynamic = ["version"]
+
+[project.optional-dependencies]
+dev = [
+    "pytest~=9.1.1",
+    "mypy~=2.1.0"
+]
+
+[tool.setuptools.dynamic]
+version = {attr = "C_dll_protocol.__version__"}
