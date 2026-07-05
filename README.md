@@ -10,7 +10,7 @@ Leveraging Pythons `typing.Annotated`, we take inspriration from the dataclasses
 
 With a bit of slight of hand, I think this broadly fools type checkers into giving appropriate type hints on your dll object.
 
-```
+```python
 # Old syntax ##########################################################################
 from ctypes import Structure, c_int, c_bool, CDLL
 
