@@ -2,7 +2,7 @@
 
 Modern Python includes lots of nice quality of life improvements, such as type annotations, and clever tools like dataclasses.
 
-However, the built-in C API uses none of these features. Which makes it not nice to use, and feels like a blast to the past.
+However, the built-in `ctypes` API uses none of these features. Which makes it not nice to use, and feels like a blast to the past.
 
 This short module (< 200 lines) allows for defining an equivalent to a `typing.Protocol`, but one that describes the API of a DLL.
 
