@@ -1,3 +1,5 @@
+**🚨 Update! Similar functionality will be incorporated into the standard library from Python 3.16, see [here](https://docs.python.org/3.16/library/ctypes.html#ctypes.util.struct) and [here](https://docs.python.org/3.16/library/ctypes.html#ctypes.util.wrap_dll_function).**
+
 # C DLL Protocol
 
 Modern Python includes lots of nice quality of life improvements, such as type annotations, and clever tools like dataclasses.
